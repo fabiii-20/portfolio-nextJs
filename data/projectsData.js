@@ -196,7 +196,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					title: 'UI Design',
-					url: 'https://www.figma.com/file/uAZSZjAf5JOFK8ucaT8bzu/klashra?type=design&node-id=58%3A2&mode=design&t=dDP9OG4rB0FaVD3F-1'
+					url: 'https://www.figma.com/proto/31amN5fsPovOG3Gmximryz/QIB?type=design&node-id=1-2&t=VTAO213Xccm2cH82-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2'
 				},
 			],
 			ProjectDetailsHeading: 'Challenge',
