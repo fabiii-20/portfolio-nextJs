@@ -3,6 +3,7 @@ import PagesMetaHead from '../components/PagesMetaHead';
 import ProjectsGrid from '../components/projects/ProjectsGrid';
 import Button from '../components/reusable/Button';
 import AppBanner from '../components/shared/AppBanner';
+import Skills from '../components/Skills';
 
 export default function Home() {
 	return (
@@ -20,6 +21,8 @@ export default function Home() {
 					</Link>
 				</div>
 			</div>
+
+			<Skills/>
 		</div>
 	);
 }

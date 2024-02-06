@@ -10,8 +10,9 @@ import {
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Tour planning platform',
-		url: 'google-health-platform',
+		title: 'Klashra',
+		url: '',
+		subtitle:'A tour booking platform for Dubai based travel company',
 		category: 'Web Application',
 		img: '/images/web-project1.png',
 		ProjectHeader: {
@@ -117,6 +118,7 @@ export const projectsData = [
 	{
 		id: 2,
 		title: 'QIB Logitics',
+		subtitle:'A landing page for a Canada based Import/Export company',
 		url: '',
 		category: 'Branding',
 		img: '/images/web-project2.png',
@@ -224,4 +226,20 @@ export const projectsData = [
 			],
 		},
 	},
+	{
+		id:3,
+		title: 'Nexwave',
+		subtitle:'Website Services for a Digital Agency',
+		category: 'Web Application',
+		img: '/images/nexwave.png',
+		url:'https://main--glistening-baklava-a3e7a8.netlify.app/'
+	},
+	{
+		id:4,
+		title: 'RestoMenu',
+		subtitle:'A menu display application',
+		category: 'Web Application',
+		img: '/images/1.png',
+		url:'https://beautiful-gaufre-fffa52.netlify.app/'
+	}
 ];
