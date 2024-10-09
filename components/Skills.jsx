@@ -70,7 +70,7 @@ export default function Skills() {
                     <div className='flex flex-wrap gap-x-2 gap-y-4'>                    {skill.skills.map((skill,sIndex)=><div 
                     // style={{background:randomPastelHex()}}
                     key={`skillsub-${sIndex}`}
-                     className={`text-md sm:text-lg tracking-tight bg-blue-100 hover:bg-blue-200 transition-all duration-300 cursor-pointer text-black rounded-xl px-4 py-2 border border-black  `}> 
+                     className={`text-md sm:text-lg tracking-tight bg-blue-100 hover:bg-blue-200 transition-all duration-300 cursor-pointer text-black rounded-xl px-4 py-2 border border-blue-300  `}> 
 
                      {skill}
                      </div>)}

@@ -241,5 +241,61 @@ export const projectsData = [
 		category: 'Web Application',
 		img: '/images/1.png',
 		url:'https://beautiful-gaufre-fffa52.netlify.app/'
+	},
+	{
+		id:5,
+		title: 'ICTAK Admin Dashboard',
+		subtitle:'A dashboard developed for ICTAK Mentors and Admins',
+		category: 'Web Application',
+		img: '/images/ictak.jpeg',
+		url:'https://ictak-admin-mentor.netlify.app/'
+	},
+	{
+		id:10,
+		title: 'FSD Frontend Development',
+		subtitle:'Nextjs Website for course booking',
+		category: 'Web Application',
+		img: '/images/fsd-frontend.jpeg',
+		url:'https://fsd-frontend-site.netlify.app/'
+	},
+	{
+		id:6,
+		title: 'SOACET Artist Website',
+		subtitle:'A place where artists can showcase works and get gigs.',
+		category: 'Web Application',
+		img: '/images/soacet.jpeg',
+		url:'https://soacet.netlify.app/'
+	},
+	{
+		id:7,
+		title: 'Suppliers Website',
+		subtitle:'Displaying list of suppliers with filters and pagination.',
+		category: 'Web Application',
+		img: '/images/suppliers.jpeg',
+		url:'https://suppliers-app.netlify.app/'
+	},
+	{
+		id:8,
+		title: 'OTP Verification Project',
+		subtitle:'Requests and verifies OTP. Supported for email.',
+		category: 'Web Application',
+		img: '/images/otp-verify.jpeg',
+		url:'https://otp-verify-ict.netlify.app/'
+	},
+	{
+		id:8,
+		title: 'Smoke Test - Neyndra',
+		subtitle:'Testing for broken links and accessibility',
+		category: 'Web Application',
+		img: '/images/smoke-test.jpeg',
+		url:'https://neyndra-smoke-test.netlify.app/'
+	},
+	{
+		id:9,
+		title: 'Login Feature Page',
+		subtitle:'Login facility with OTP and tokens',
+		category: 'Web Application',
+		img: '/images/login.jpeg',
+		url:'https://splendid-biscochitos-629557.netlify.app/'
 	}
 ];

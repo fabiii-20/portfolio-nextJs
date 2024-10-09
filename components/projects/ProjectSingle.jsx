@@ -18,6 +18,7 @@ const ProjectSingle = (props) => {
 			<Link
 				href={props.url!=="" ? props.url :"/projects/" + props.id}
 				// as={'/projects/' + props.id}
+				target="_blank"
 				aria-label="Single Project"
 				passHref
 			>
