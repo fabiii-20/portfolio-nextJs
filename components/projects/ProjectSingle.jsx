@@ -40,7 +40,7 @@ const ProjectSingle = (props) => {
 							<p className="font-general-medium uppercase text-xl md:text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 								{props.title}
 							</p>
-							<p className='text-left'>{props.subtitle}</p>
+							<p className='text-left text-gray-700 dark:text-gray-400'>{props.subtitle}</p>
 						</div>
 						<span className="text-lg text-ternary-dark dark:text-ternary-light w-fit bg-blue-200 dark:bg-slate-800 rounded-md px-2 py-1 text-sm">
 							{props.category}
