@@ -73,7 +73,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					title: 'Deployed site',
-					url: 'https://earnest-madeleine-e4b5c0.netlify.app/',
+					url: 'https://klashra-test-domain-1.netlify.app/',
 					
 				},
 			],
