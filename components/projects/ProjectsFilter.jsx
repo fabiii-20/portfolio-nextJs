@@ -1,6 +1,7 @@
 const selectOptions = [
 	'Web Application',
 	'Branding',
+	'Extension'
 ];
 
 function ProjectsFilter({ setSelectProject }) {
