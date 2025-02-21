@@ -307,4 +307,107 @@ export const projectsData = [
     img: "/images/linkchecker.png",
     url: "https://github.com/fabiii-20/LinkChecker.git",
   },
+  {
+    id: 14,
+    title: "E-commerce App",
+    url: "https://e-commerce-fabi.netlify.app/",
+    subtitle: "An E-commerce app using redux toolkit",
+    category: "Web Application",
+    img: "/images/e-comm.png",
+    ProjectHeader: {
+      title: "E-commerce App",
+      publishDate: "Feb , 2025",
+      tags: "Fullstack",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "image",
+        img: "/images/ui-project1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "image",
+        img: "/images/web-project1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "image",
+        img: "/images/web-project1-1.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Klashra Tours and Travels",
+        },
+        {
+          id: uuidv4(),
+          title: "UI Designer & Frontend Developer",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To create an engaging and user-friendly online platform tailored for travelers worldwide, with a specific focus on the captivating destinations nestled within Dubai.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React js",
+            "TailwindCSS",
+            "Figma",
+          ],
+        },
+      ],
+      DeployedUrlHeading: "Deployed site",
+      DeployedUrlInfo: [
+        {
+          id: uuidv4(),
+          title: "Deployed site",
+          url: "https://klashra-test-domain-1.netlify.app/",
+        },
+      ],
+      FigmaUrlHeading: "UI Design",
+      FigmaUrlInfo: [
+        {
+          id: uuidv4(),
+          title: "UI Design",
+          url: "https://www.figma.com/file/uAZSZjAf5JOFK8ucaT8bzu/klashra?type=design&node-id=58%3A2&mode=design&t=dDP9OG4rB0FaVD3F-1",
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "As a Frontend Developer and UI/UX Designer at Klashra, my mission was to create an engaging and user-friendly online platform tailored for travelers worldwide, with a specific focus on the captivating destinations nestled within Dubai.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            'Utilized Figma to create wireframes, mockups, and interactive prototypes to visually communicate design concepts effectively. Leveraged the "smart animate" feature in Figma to craft dynamic and engaging prototypes.',
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Applied user-centered design principles to ensure the platform`s interfaces were intuitive and visually appealing. Focused on creating a seamless user experience to enhance engagement.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Leveraged a tech stack that included React.js, HTML, Bootstrap CSS, and JavaScript to implement responsive and interactive user interfaces. Ensured that the platform worked seamlessly across various devices and screen sizes.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Utilized React hooks to manage state and functional components effectively, streamlining the development process. Implemented custom card components to showcase travel information and destinations and Integrated the Stripe payment gateway to facilitate secure and efficient payment processing within the platform. Ensured a smooth payment experience for users. Deployed the react app netlify",
+        },
+      ],
+    },
+  },
 ];
